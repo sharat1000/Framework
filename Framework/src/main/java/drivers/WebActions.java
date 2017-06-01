@@ -183,6 +183,8 @@ import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.io.FileUtils;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
@@ -270,7 +272,11 @@ public class WebActions {
 //##############################################################################################################################################################	
 					
 		public void executeTestSuite() throws Exception{
-			try{				
+			try{			
+				
+				System.setProperty("log4j.configurationFile","./Assets/log4j.properties");
+				Logger log = LogManager.getLogger("ManualLogger");
+				
 				//Read the Execution Property File
 				String arrExecutionParameters[] = new String[14];
 				arrExecutionParameters=readExecutionProperties();
@@ -313,12 +319,13 @@ public class WebActions {
 				System.out.println("Html5 Application      : "+strHtml5Application);
 				System.out.println("Batch Execution        : "+strBatch);	
 				System.out.println("Date Timestamp Created : "+ getCurrentDatenTime("dd-MMM-yyyy")+ " " +getCurrentDatenTime("HH:mm:ss"));
-				System.out.println("BSA COP Framework Ver  : 2.6");
+				System.out.println("BSA COP Framework Ver  : 3.0");
 				System.out.println("**********************************************************************************************************");
 				System.out.println();
 				System.out.println("Log Path  :"+strLogPath);
 				System.out.println();
 				
+				log.debug("Getting UKUnit value");
 				//Read all the input Excel files like ObjectRepository,TestData,TestExecution
 				readObjectRepository();
 				readTestData(strEnvironmentName);		

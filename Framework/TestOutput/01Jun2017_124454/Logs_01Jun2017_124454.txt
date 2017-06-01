@@ -1,0 +1,419 @@
+**********************************************************************************************************
+Execution Log Report 
+**********************************************************************************************************
+Project Name           : POC Test
+Suite Name             : Smoke
+Environment            : Stage
+SendReport Email       : no
+To Email               : sutla@deloitte.com;
+CC Email               : sutla@deloitte.com;
+SendAllReports Email   : no
+Html5 Application      : no
+Batch Execution        : no
+Date Timestamp Created : 01-Jun-2017 12:44:54
+BSA COP Framework Ver  : 3.0
+**********************************************************************************************************
+
+Log Path  :./TestOutput/01Jun2017_124454/Logs_01Jun2017_124454.txt
+
+***********************************  Reading Object Repository Sheet  ************************************
+
+Object Repository Sheet1 - Row Count: 84
+
+Menu_Button - Xpath - //a[@class='menu-btn'] - Object Repository Map Value: [Xpath, //a[@class='menu-btn']]
+
+SiteTitle - Xpath - //input[@name='title'] - Object Repository Map Value: [Xpath, //input[@name='title']]
+
+Home_LeftArrow - Xpath - //div[@class='owl-prev'] - Object Repository Map Value: [Xpath, //div[@class='owl-prev']]
+
+Home_RightArrow - Xpath - //div[@class='owl-next'] - Object Repository Map Value: [Xpath, //div[@class='owl-next']]
+
+Yammer - Xpath - //div[@id='FeaturedView']/div/div/div[4] - Object Repository Map Value: [Xpath, //div[@id='FeaturedView']/div/div/div[4]]
+
+App_Name - Xpath+Data - //h3[contains(text(),'%Recommended_App%')] - Object Repository Map Value: [Xpath+Data, //h3[contains(text(),'%Recommended_App%')]]
+
+App_Title - Xpath - //div[@id='AppSummary']//div/h2 - Object Repository Map Value: [Xpath, //div[@id='AppSummary']//div/h2]
+
+Launch_Button - Xpath - //button[contains(text(),'Launch')] - Object Repository Map Value: [Xpath, //button[contains(text(),'Launch')]]
+
+Recommended_Link - Xpath - //li[contains(text(),'Recommended')] - Object Repository Map Value: [Xpath, //li[contains(text(),'Recommended')]]
+
+Recommended_Link_Active - Xpath - //li[contains(text(),'Recommended') and @class='active' ] - Object Repository Map Value: [Xpath, //li[contains(text(),'Recommended') and @class='active' ]]
+
+RecommendedApp_SeeAll - Xpath - //a[text()='See All'][@href='#apps/recommended'] - Object Repository Map Value: [Xpath, //a[text()='See All'][@href='#apps/recommended']]
+
+Apps_Link - Xpath - //a[contains(text(),'Apps')] - Object Repository Map Value: [Xpath, //a[contains(text(),'Apps')]]
+
+All_Link - Xpath - //li[contains(text(),'All')] - Object Repository Map Value: [Xpath, //li[contains(text(),'All')]]
+
+All_Link_Active - Xpath - //li[contains(text(),'All') and @class='active'] - Object Repository Map Value: [Xpath, //li[contains(text(),'All') and @class='active']]
+
+New_Link - Xpath - //li[contains(text(),'New')] - Object Repository Map Value: [Xpath, //li[contains(text(),'New')]]
+
+New_Link_Active - Xpath - //li[contains(text(),'New') and @class='active'] - Object Repository Map Value: [Xpath, //li[contains(text(),'New') and @class='active']]
+
+Top_Link - Xpath - //li[contains(text(),'Top')] - Object Repository Map Value: [Xpath, //li[contains(text(),'Top')]]
+
+Top_Link_Active - Xpath - //li[contains(text(),'Top') and @class='active' ] - Object Repository Map Value: [Xpath, //li[contains(text(),'Top') and @class='active' ]]
+
+App_Date - Xpath - //div[@id='AppMeta']//li[1]/div[2] - Object Repository Map Value: [Xpath, //div[@id='AppMeta']//li[1]/div[2]]
+
+App_Version - Xpath - //div[@id='AppMeta']//li[2]/div[2] - Object Repository Map Value: [Xpath, //div[@id='AppMeta']//li[2]/div[2]]
+
+App_Support_Dev - Xpath - //div[@class='content-box']/div[3]/div/ul - Object Repository Map Value: [Xpath, //div[@class='content-box']/div[3]/div/ul]
+
+Feedback_Comments - Xpath - //textarea[@id='reviewTextInput'] - Object Repository Map Value: [Xpath, //textarea[@id='reviewTextInput']]
+
+Feedback_Submit_Button - Xpath - //button[@id='submitReviewBtn'] - Object Repository Map Value: [Xpath, //button[@id='submitReviewBtn']]
+
+Review_Star3 - Xpath - //*[@id='reviewsContainer']/div[2]/div/div/form/div/i[3] - Object Repository Map Value: [Xpath, //*[@id='reviewsContainer']/div[2]/div/div/form/div/i[3]]
+
+Review_Star5 - Xpath - //*[@id='reviewsContainer']/div[2]/div/div/form/div/i[5] - Object Repository Map Value: [Xpath, //*[@id='reviewsContainer']/div[2]/div/div/form/div/i[5]]
+
+Rating_Stars - Xpath+Data - //ul[@id='reviews']//h2[contains(text(),'%Reviewer_Name%')]/parent::div//i[@class='stars icon-star current-rating'] - Object Repository Map Value: [Xpath+Data, //ul[@id='reviews']//h2[contains(text(),'%Reviewer_Name%')]/parent::div//i[@class='stars icon-star current-rating']]
+
+Review_Check - Xpath+Data - //ul[@id='reviews']//h2[contains(text(),'%Reviewer_Name%')]/parent::div/parent::li/p - Object Repository Map Value: [Xpath+Data, //ul[@id='reviews']//h2[contains(text(),'%Reviewer_Name%')]/parent::div/parent::li/p]
+
+Back_Button - Xpath - //button[@class='btn close-btn back-btn'] - Object Repository Map Value: [Xpath, //button[@class='btn close-btn back-btn']]
+
+Apps_All_App - Xpath+Data - //h3[contains(text(),'%Apps_All_App%')] - Object Repository Map Value: [Xpath+Data, //h3[contains(text(),'%Apps_All_App%')]]
+
+Apps_New_App - Xpath+Data - //h3[contains(text(),'%Apps_New_App%')] - Object Repository Map Value: [Xpath+Data, //h3[contains(text(),'%Apps_New_App%')]]
+
+Apps_Top_App - Xpath+Data - //h3[contains(text(),'%Apps_Top_App%')] - Object Repository Map Value: [Xpath+Data, //h3[contains(text(),'%Apps_Top_App%')]]
+
+Search_Box - Xpath - //input[@name='search'] - Object Repository Map Value: [Xpath, //input[@name='search']]
+
+Search_Results - Xpath - //*[@id='search']/div[1]/h1 - Object Repository Map Value: [Xpath, //*[@id='search']/div[1]/h1]
+
+Search_App - Xpath+Data - //h3[contains(text(),'%Search_Box_Value%')] - Object Repository Map Value: [Xpath+Data, //h3[contains(text(),'%Search_Box_Value%')]]
+
+Login_Name - Xpath - //li[@class='profile-item']/a - Object Repository Map Value: [Xpath, //li[@class='profile-item']/a]
+
+Learning_Link - Xpath - //a[@href='#learning'] - Object Repository Map Value: [Xpath, //a[@href='#learning']]
+
+Featured_Link - Xpath - //li[contains(text(),'Featured')] - Object Repository Map Value: [Xpath, //li[contains(text(),'Featured')]]
+
+Presentation_App - Xpath+Data - //h3[contains(text(),'%Presentation_App%')] - Object Repository Map Value: [Xpath+Data, //h3[contains(text(),'%Presentation_App%')]]
+
+PDF_App - Xpath+Data - //h3[contains(text(),'%PDF_App%')] - Object Repository Map Value: [Xpath+Data, //h3[contains(text(),'%PDF_App%')]]
+
+View_Presentation_Button_App - Xpath+Data - //h3[contains(text(),'%View_Presentation_Button_App%')] - Object Repository Map Value: [Xpath+Data, //h3[contains(text(),'%View_Presentation_Button_App%')]]
+
+View_Presentation_Button - Xpath - //button[@id='view-presentation'] - Object Repository Map Value: [Xpath, //button[@id='view-presentation']]
+
+Share_Email - Xpath - //button[@id='share-email'] - Object Repository Map Value: [Xpath, //button[@id='share-email']]
+
+Share_Yammer - Xpath - //button[@id='share-yammer'] - Object Repository Map Value: [Xpath, //button[@id='share-yammer']]
+
+Share_Button - Xpath - //button[@class='btn share-btn'] - Object Repository Map Value: [Xpath, //button[@class='btn share-btn']]
+
+Learning_All_App - Xpath+Data - //h3[contains(text(),'%Learning_All_App%')] - Object Repository Map Value: [Xpath+Data, //h3[contains(text(),'%Learning_All_App%')]]
+
+Learning_Featured_App - Xpath+Data - //h3[contains(text(),'%Learning_Featured_App%')] - Object Repository Map Value: [Xpath+Data, //h3[contains(text(),'%Learning_Featured_App%')]]
+
+Learning_New_App - Xpath+Data - //h3[contains(text(),'%Learning_New_App%')] - Object Repository Map Value: [Xpath+Data, //h3[contains(text(),'%Learning_New_App%')]]
+
+LearningApp_Name - Xpath+Data - //h3[contains(text(),'%Learning_App%')] - Object Repository Map Value: [Xpath+Data, //h3[contains(text(),'%Learning_App%')]]
+
+Learn_SeeAll - Xpath - //a[text()='See All' and @href='#learning/featured'] - Object Repository Map Value: [Xpath, //a[text()='See All' and @href='#learning/featured']]
+
+Featured_Link_Active - Xpath - //li[contains(text(),'Featured') and @class='active'] - Object Repository Map Value: [Xpath, //li[contains(text(),'Featured') and @class='active']]
+
+AddToPlaylist_Button - Xpath - //button[text()='Add to playlist'] - Object Repository Map Value: [Xpath, //button[text()='Add to playlist']]
+
+RemoveFromPlaylist_Button - Xpath - //button[text()='Remove from playlist'] - Object Repository Map Value: [Xpath, //button[text()='Remove from playlist']]
+
+MyPlaylist_Link - Xpath - //a[contains(text(),'My playlist')] - Object Repository Map Value: [Xpath, //a[contains(text(),'My playlist')]]
+
+MyPlaylist_Edit - Xpath - //button[@id='editBtn'] - Object Repository Map Value: [Xpath, //button[@id='editBtn']]
+
+MyPlaylist_Done - Xpath - //button[@id='doneBtn'] - Object Repository Map Value: [Xpath, //button[@id='doneBtn']]
+
+App_Delete_Icon - Xpath - //i[@class='icon-delete'] - Object Repository Map Value: [Xpath, //i[@class='icon-delete']]
+
+Hide_Options_Icon - Xpath+Data - //h3[contains(text(),'%Hidden_App%')]/following-sibling::div/span - Object Repository Map Value: [Xpath+Data, //h3[contains(text(),'%Hidden_App%')]/following-sibling::div/span]
+
+Hide_Options_Icon1 - Xpath+Data - //h3[contains(text(),'%Hidden_App%')]/following-sibling::div/div - Object Repository Map Value: [Xpath+Data, //h3[contains(text(),'%Hidden_App%')]/following-sibling::div/div]
+
+Hide_Option - Xpath - //button[@class='btn hide-btn'] - Object Repository Map Value: [Xpath, //button[@class='btn hide-btn']]
+
+Unhide_Option - Xpath - //button[@class='btn unhide-btn'] - Object Repository Map Value: [Xpath, //button[@class='btn unhide-btn']]
+
+Hidden_App - Xpath+Data - //h3[contains(text(),'%Hidden_App%')] - Object Repository Map Value: [Xpath+Data, //h3[contains(text(),'%Hidden_App%')]]
+
+HiddenItems_Link - Xpath - //a[contains(text(),'Hidden items')] - Object Repository Map Value: [Xpath, //a[contains(text(),'Hidden items')]]
+
+Language_Link - Xpath - //a[text()='Language'] - Object Repository Map Value: [Xpath, //a[text()='Language']]
+
+Language_Error - Xpath - //p[@id='languages-error'] - Object Repository Map Value: [Xpath, //p[@id='languages-error']]
+
+English_Check - Xpath - //input[@id='English'] - Object Repository Map Value: [Xpath, //input[@id='English']]
+
+Language_Chinese - Xpath - //span[contains(text(),'Chinese (Simplified)')] - Object Repository Map Value: [Xpath, //span[contains(text(),'Chinese (Simplified)')]]
+
+Language_English - Xpath - //span[contains(text(),'English')] - Object Repository Map Value: [Xpath, //span[contains(text(),'English')]]
+
+Language_French - Xpath - //span[contains(text(),'French')] - Object Repository Map Value: [Xpath, //span[contains(text(),'French')]]
+
+Language_German - Xpath - //span[contains(text(),'German')] - Object Repository Map Value: [Xpath, //span[contains(text(),'German')]]
+
+Language_Portuguese - Xpath - //span[contains(text(),'Portuguese')] - Object Repository Map Value: [Xpath, //span[contains(text(),'Portuguese')]]
+
+Language_Russian - Xpath - //span[contains(text(),'Russian')] - Object Repository Map Value: [Xpath, //span[contains(text(),'Russian')]]
+
+Language_Spanish - Xpath - //span[contains(text(),'Spanish')] - Object Repository Map Value: [Xpath, //span[contains(text(),'Spanish')]]
+
+Save_Button - Xpath - //input[@id='btn-save'] - Object Repository Map Value: [Xpath, //input[@id='btn-save']]
+
+About_Link - Xpath - //a[@href='#about'] - Object Repository Map Value: [Xpath, //a[@href='#about']]
+
+Terms - Xpath - //li[text()='Terms'] - Object Repository Map Value: [Xpath, //li[text()='Terms']]
+
+Privacy - Xpath - //li[text()='Privacy'] - Object Repository Map Value: [Xpath, //li[text()='Privacy']]
+
+About - Xpath - //li[text()='About'] - Object Repository Map Value: [Xpath, //li[text()='About']]
+
+AppCenter_Version - Xpath - //h2 - Object Repository Map Value: [Xpath, //h2]
+
+AppCenter_QA_Env - Xpath - //div[@class='legal-privacy-content']/h2 - Object Repository Map Value: [Xpath, //div[@class='legal-privacy-content']/h2]
+
+AppCenter_STAGE_Env - Xpath - //div[@class='container tab-content']/div/p[1] - Object Repository Map Value: [Xpath, //div[@class='container tab-content']/div/p[1]]
+
+Terms_Header_QA - Xpath - //div[@class='legal-privacy-content']/p[2] - Object Repository Map Value: [Xpath, //div[@class='legal-privacy-content']/p[2]]
+
+Terms_Header - Xpath - //div[@class='container tab-content']/div/p[index] - Object Repository Map Value: [Xpath, //div[@class='container tab-content']/div/p[index]]
+
+Privacy_Header_QA - Xpath - //div[@class='legal-privacy-content']/b[3]/span - Object Repository Map Value: [Xpath, //div[@class='legal-privacy-content']/b[3]/span]
+
+Privacy_Header - Xpath - //p[@class='MsoNormal']/b[3]/span - Object Repository Map Value: [Xpath, //p[@class='MsoNormal']/b[3]/span]
+
+**************************************  Reading Test Data Sheet  *****************************************
+
+Test Data Sheet1 - TestData - Row Count: 25
+
+Featured_Image_App_Title - Yammer - Test Data Map Value: Yammer
+
+Url - http://deloitteunitydevprovisioning.azurewebsites.net/sp/create - Test Data Map Value: http://deloitteunitydevprovisioning.azurewebsites.net/sp/create
+
+Recommended_Tab_Index - data-tab-index - Test Data Map Value: data-tab-index
+
+Recommended_Link_Title - Recommended - Test Data Map Value: Recommended
+
+TestFile - Sample.pdf - Test Data Map Value: Sample.pdf
+
+All_Link_Title - All - Test Data Map Value: All
+
+New_Link_Title - New - Test Data Map Value: New
+
+Top_Link_Title - Top - Test Data Map Value: Top
+
+Login_Name_Value - Sharat Utla - Test Data Map Value: Sharat Utla
+
+Feedback_Comments - The App is good - Test Data Map Value: The App is good
+
+Feedback_Comments_Updated - The App is looking good. - Test Data Map Value: The App is looking good.
+
+Search_Box_Value - Deloitte Quiz - Test Data Map Value: Deloitte Quiz
+
+Reviewer_Name - Sharat Utla - Test Data Map Value: Sharat Utla
+
+Featured_Link_Title - Featured - Test Data Map Value: Featured
+
+Language_Error_Msg - You must select at least one language. - Test Data Map Value: You must select at least one language.
+
+Language_Option1 - Chinese (Simplified) - Test Data Map Value: Chinese (Simplified)
+
+Language_Option2 - English - Test Data Map Value: English
+
+Language_Option3 - French - Test Data Map Value: French
+
+Language_Option4 - German - Test Data Map Value: German
+
+Language_Option5 - Portuguese - Test Data Map Value: Portuguese
+
+Language_Option6 - Russian - Test Data Map Value: Russian
+
+Language_Option7 - Spanish - Test Data Map Value: Spanish
+
+AppCenter_Version - App Center 4.2.4 - Test Data Map Value: App Center 4.2.4
+
+AppCenter_Privacy - PRIVACY STATEMENT - Test Data Map Value: PRIVACY STATEMENT
+
+AppCenter_Terms - Terms of Use - Test Data Map Value: Terms of Use
+
+DEV Testdata sheet skipped
+
+INT Testdata sheet skipped
+
+QA Testdata sheet skipped
+
+Test Data Sheet2 - STAGE - Row Count: 15
+
+AppCenter_URL - https://stageappcenter.deloitteresources.com/ - Test Data Map Value: https://stageappcenter.deloitteresources.com/
+
+Recommended_App - browser test app - Test Data Map Value: browser test app
+
+Apps_All_App - App Center - Test Data Map Value: App Center
+
+Apps_New_App - QAtest1 - Test Data Map Value: QAtest1
+
+Apps_Top_App - Deloitte Mexico Mobiles - Test Data Map Value: Deloitte Mexico Mobiles
+
+PDF_App - Why Ordinary People Need to Understand Power - Test Data Map Value: Why Ordinary People Need to Understand Power
+
+Presentation_App - Protecting your Social Media Footprint - Test Data Map Value: Protecting your Social Media Footprint
+
+Learning_Featured_App - The Difference Between Winning and Succeeding - Test Data Map Value: The Difference Between Winning and Succeeding
+
+Learning_All_App - 10 Career Essentials - Test Data Map Value: 10 Career Essentials
+
+Learning_New_App - Embrace the beauty of sleep - Test Data Map Value: Embrace the beauty of sleep
+
+Learning_App - Can Technology Solve Our Big Problems? - Test Data Map Value: Can Technology Solve Our Big Problems?
+
+Hidden_App - 5 Ways to Listen Better - Test Data Map Value: 5 Ways to Listen Better
+
+View_Presentation_Button_App - Deloitte Mexico Mobiles Approvals - Test Data Map Value: Deloitte Mexico Mobiles Approvals
+
+AppCenter_Env - STAGING - Test Data Map Value: STAGING
+
+AppUpload_URL - https://stageappupload.deloitteresources.com/ - Test Data Map Value: https://stageappupload.deloitteresources.com/
+
+PROD Testdata sheet skipped
+
+
+************************************  Reading Execution Sheet  *******************************************
+
+Execution - Smoke Sheet - Row Count: 21
+
+verify_HomePage_AppImageCarousel - YES - Chrome -  -  Execution Map Value: [AppCenterWeb, verify_HomePage_AppImageCarousel, YES, Chrome, ]
+
+verify_HomePage_RecommendedApps - NO - IE -  -  Execution Map Value: [AppCenterWeb, verify_HomePage_RecommendedApps, NO, IE, ]
+
+verify_HomePage_RecommendedApps_SeeAll - NO - Firefox -  -  Execution Map Value: [AppCenterWeb, verify_HomePage_RecommendedApps_SeeAll, NO, Firefox, ]
+
+verify_Apps_Tabs - NO - Edge -  -  Execution Map Value: [AppCenterWeb, verify_Apps_Tabs, NO, Edge, ]
+
+verify_AppDetails_Comments - NO - IE -  -  Execution Map Value: [AppCenterWeb, verify_AppDetails_Comments, NO, IE, ]
+
+verify_Apps_Back - NO - IE - AppCenterWeb.verify_HomePage_AppImageCarousel -  Execution Map Value: [AppCenterWeb, verify_Apps_Back, NO, IE, AppCenterWeb.verify_HomePage_AppImageCarousel]
+
+verify_View_Presentation_Button - NO - IE - AppCenterWeb.verify_HomePage_AppImageCarousel;verify_HomePage_RecommendedApps -  Execution Map Value: [AppCenterWeb, verify_View_Presentation_Button, NO, IE, AppCenterWeb.verify_HomePage_AppImageCarousel;verify_HomePage_RecommendedApps]
+
+verify_Search - NO - IE -  -  Execution Map Value: [AppCenterWeb, verify_Search, NO, IE, ]
+
+verify_Share_Yammer - NO - IE -  -  Execution Map Value: [AppCenterWeb, verify_Share_Yammer, NO, IE, ]
+
+verify_Learning_Content - NO - IE -  -  Execution Map Value: [AppCenterWeb, verify_Learning_Content, NO, IE, ]
+
+verify_Presentation_Files_Download - NO - IE -  -  Execution Map Value: [AppCenterWeb, verify_Presentation_Files_Download, NO, IE, ]
+
+verify_Learning_SeeAll - NO - IE -  -  Execution Map Value: [AppCenterWeb, verify_Learning_SeeAll, NO, IE, ]
+
+verify_Learning_Back - NO - IE -  -  Execution Map Value: [AppCenterWeb, verify_Learning_Back, NO, IE, ]
+
+verify_MyPlaylist_AddingApp - NO - IE -  -  Execution Map Value: [AppCenterWeb, verify_MyPlaylist_AddingApp, NO, IE, ]
+
+verify_MyPlaylist_RemovingApp - NO - IE -  -  Execution Map Value: [AppCenterWeb, verify_MyPlaylist_RemovingApp, NO, IE, ]
+
+verify_MyPlaylist_Edit - NO - IE -  -  Execution Map Value: [AppCenterWeb, verify_MyPlaylist_Edit, NO, IE, ]
+
+verify_HiddentItems - NO - IE -  -  Execution Map Value: [AppCenterWeb, verify_HiddentItems, NO, IE, ]
+
+verify_Language - NO - IE -  -  Execution Map Value: [AppCenterWeb, verify_Language, NO, IE, ]
+
+verify_About - NO - IE -  -  Execution Map Value: [AppCenterWeb, verify_About, NO, IE, ]
+
+xysshsh - NO - IE -  -  Execution Map Value: [Testclass, xysshsh, NO, IE, ]
+
+method2 - NO - IE -  -  Execution Map Value: [Testclass, method2, NO, IE, ]
+
+***************************************  Test Execution Started  *****************************************
+
+Browser : Chrome
+Suite : Smoke
+Test Case : testCases.AppCenterWeb
+Method Name: verify_HomePage_AppImageCarousel
+[TestNG] Running:
+  Command line suite
+
+File does not exist in Assets Folder : Sample.pdf
+New File name : 
+App Center Launched
+Selected Locator Type: Xpath
+Selected Locator Value: //a[@class='menu-btn']
+Object visible
+Selected Locator Type: Xpath
+Selected Locator Value: //a[@class='menu-btn']
+Selected Locator Type: Xpath
+Selected Locator Value: //li[@class='profile-item']/a
+Object visible
+Selected Locator Type: Xpath
+Selected Locator Value: //li[@class='profile-item']/a
+Selected Locator Type: Xpath
+Selected Locator Value: //a[@class='menu-btn']
+Selected Locator Type: Xpath
+Selected Locator Value: //div[@class='owl-prev']
+Click Method Exception Message: org.openqa.selenium.WebDriverException: unknown error: Element <div class="owl-..." style="">prev</div> is not clickable at point (40, 190). Other element would receive the click: <div id="loader" class="background full" style="display: block;"></div>
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 202 milliseconds
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'USHYDSUTLA5', ip: '192.168.124.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\sutla\AppData\Local\Temp\scoped_dir11648_3541}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 74d718519ddc2ba635319e05391f7dce
+Selected Locator Type: Xpath
+Selected Locator Value: //div[@class='owl-prev']
+Click Method Exception Message: org.openqa.selenium.WebDriverException: unknown error: Element <div class="owl-..." style="">prev</div> is not clickable at point (40, 190). Other element would receive the click: <div id="loader" class="background full" style="display: block;"></div>
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 61 milliseconds
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'USHYDSUTLA5', ip: '192.168.124.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\sutla\AppData\Local\Temp\scoped_dir11648_3541}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 74d718519ddc2ba635319e05391f7dce
+Screenshot name already exists
+Selected Locator Type: Xpath
+Selected Locator Value: //div[@class='owl-next']
+Click Method Exception Message: org.openqa.selenium.WebDriverException: unknown error: Element <div class="owl-..." style="">next</div> is not clickable at point (1309, 190). Other element would receive the click: <div id="loader" class="background full" style="display: block;"></div>
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 65 milliseconds
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'USHYDSUTLA5', ip: '192.168.124.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\sutla\AppData\Local\Temp\scoped_dir11648_3541}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 74d718519ddc2ba635319e05391f7dce
+Selected Locator Type: Xpath
+Selected Locator Value: //div[@id='FeaturedView']/div/div/div[4]
+Object visible
+Selected Locator Type: Xpath
+Selected Locator Value: //div[@id='FeaturedView']/div/div/div[4]
+Click Method Exception Message: org.openqa.selenium.WebDriverException: unknown error: Element <div class="owl-item active center" style="width: 429.667px; margin-right: 10px;">...</div> is not clickable at point (673, 190). Other element would receive the click: <div id="loader" class="background full" style="display: block;"></div>
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 62 milliseconds
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'USHYDSUTLA5', ip: '192.168.124.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\sutla\AppData\Local\Temp\scoped_dir11648_3541}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 74d718519ddc2ba635319e05391f7dce
+Selected Locator Type: Xpath
+Selected Locator Value: //div[@id='AppSummary']//div/h2
+App_Title: Object not found
+Please specify proper file name to rewrite
+
+===============================================
+Smoke
+Total tests run: 1, Failures: 0, Skips: 0
+===============================================
+
+Detailed report path for testcase : ./TestOutput/01Jun2017_124454/Reports/01Jun2017_124543_verify_HomePage_AppImageCarousel.html
+
+Creating summary report...
+Summary Report Path  :./TestOutput/01Jun2017_124454/Reports/SummaryReport_POC Test_01Jun2017_124454.html
+
+***************************************  Test Execution Completed  ***************************************
